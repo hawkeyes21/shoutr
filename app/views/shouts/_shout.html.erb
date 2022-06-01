@@ -5,4 +5,5 @@
     <%= link_to shout do %>
         <i><%= time_ago_in_words(shout.created_at) %> </i> ago
     <% end %>
+    <%= like_button(shout) %>
 </div>
